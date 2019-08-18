@@ -1,3 +1,7 @@
+*{
+    box-sizing: border-box;
+}
+
 body{
     background: #454545;
     line-height: 1.7
@@ -13,12 +17,12 @@ a,body{
 
 .side-bar{
     float: left;
-    width: 20%
+    width: 20%;
+    position: fixed;
 }
 
 .side-bar > *{
     padding: 10px 15px;
-    position: fixed;
 }
 .side-bar .nav a,
 .side-bar .tag-list a{
@@ -80,3 +84,6 @@ a,body{
     margin: 10px 0;
 }
 
+.btn-group{
+    display: none;
+}

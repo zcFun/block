@@ -1,0 +1,28 @@
+
+.side-bar{
+    position: relative;
+    width: 100%;
+    float: none;
+}
+
+.main{
+    width: 100%;
+    padding:0 15px; 
+}
+
+.article-list{
+    margin: 0;
+}
+
+.side-bar .nav ,
+.side-bar .tag-list{
+    display: none;
+}
+
+.btn-group{
+    display:block;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
